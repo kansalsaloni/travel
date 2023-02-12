@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+}
+body{
+    background-image:url('travel.png')  ;
+   
+       background-size: cover;
+      
+       
+}
+.header{
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 20px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap:50px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+header img{
+   padding-top: 5px;
+    height: 30px;
+}
+nav ul{
+            margin-top: 3%;
+            border-left: 2px solid white;
+            padding-left: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 30px;
+}
+li {
+
+   
+    list-style: none;
+    cursor: pointer;
+    color: white;
+  }
+li:hover{
+   
+    text-decoration: underline;
+}
+.header-button{
+    background-color: blueviolet;
+    border: none;
+    width:140px;
+    height:40px;
+    padding: 13px 25px 13px 25px;
+    color: white;
+    margin-left: 550px;
+  
+
+}
+button{
+    background-color: blueviolet;
+    border: none;
+   padding: 13px 25px 13px 25px;
+   color: white;
+   border-radius: 3px;
+}
+
+section{
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.para{
+      
+    margin-left: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    color:orange;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.main{
+   
+    margin-left: 140px;
+    width: 40%;
+    margin-bottom: 20px;
+    color: orange;
+    font-weight: bolder;
+    font-size: 45px;
+
+    justify-content: center;
+    align-items: center;
+}
+
